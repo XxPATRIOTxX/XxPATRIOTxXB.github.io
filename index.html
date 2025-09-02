@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Creativo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #ffcc00;
+      text-decoration: none;
+    }
+    section {
+      padding: 3rem 1rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .project-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+    }
+    .card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nome Cognome</h1>
+    <p>Studente creativo • Game Dev • Multimedia</p>
+    <nav>
+      <a href="#giochi">Giochi</a>
+      <a href="#grafica">Grafica 3D/2D</a>
+      <a href="#audio">Audio/Video</a>
+      <a href="#contatti">Contatti</a>
+    </nav>
+  </header>
+
+  <section id="giochi">
+    <h2>🎮 Giochi & Prototipi</h2>
+    <div class="project-grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Progetto Gioco">
+        <h3>Collect the Coin</h3>
+        <p>Mini-gioco realizzato con Unity. Raccogli le monete e fai punti!</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Progetto Unreal">
+        <h3>Portale Magico</h3>
+        <p>Esperimento con Unreal Engine Blueprint per teletrasporto.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="grafica">
+    <h2>🎨 Grafica & 3D</h2>
+    <div class="project-grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Render Blender">
+        <h3>Stanza Low Poly</h3>
+        <p>Modellazione 3D in Blender di una stanza minimale.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Logo 3D">
+        <h3>Logo Animato</h3>
+        <p>Logo personale animato in 3D.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="audio">
+    <h2>🎧 Audio & Video</h2>
+    <div class="project-grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Loop Musicale">
+        <h3>Loop Epico</h3>
+        <p>Breve traccia musicale originale, ideale per intro o giochi.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Sigla Video">
+        <h3>Sigla YouTube</h3>
+        <p>Intro animata per canale creativo, con audio e motion graphics.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contatti">
+    <h2>📬 Contatti</h2>
+    <p style="text-align:center;">Scrivimi a: <a href="mailto:tuoemail@example.com">tuoemail@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Nome Cognome - Portfolio Creativo</p>
+  </footer>
+</body>
+</html>
